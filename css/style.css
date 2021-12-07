@@ -1,0 +1,70 @@
+body{
+
+    background-image: url("https://livedoor.blogimg.jp/line_en/imgs/5/3/53f7e002.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+}
+.table {
+
+    /* background-color:rgb(72, 153, 190); */
+    border: rgb(8, 27, 116);
+    color: white;
+    margin-left: 600px;
+    border-radius: 10%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+
+    
+}
+.board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10%;
+   background-color: skyblue;
+}
+
+h1{
+    color:white;
+    font-style:italic;
+   text-align: center;
+    font-size: 30px;
+
+}
+
+.timer{
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(72, 153, 190);
+    color: lightgreen;
+}
+.container{
+    margin: 16 px auto;
+    text-align: center;
+}
+.btn-container{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:290px;
+}
+
+.btn{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:orange; ;
+    margin-left: 5%;
+    margin-top: 20px;
+    bottom: 8px;
+    left: 300px;
+}
